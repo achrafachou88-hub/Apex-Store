@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LUXE | متجر عالمي فاخر</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Inter:wght@300;400;500&family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- ===== شاشة التحميل ===== -->
+  <div id="loader">
+    <div class="loader-logo">LUXE</div>
+    <div class="loader-bar"><span></span></div>
+  </div>
+
+  <!-- ===== شريط الإعلانات ===== -->
+  <div class="announcement-bar">
+    <p>✦ شحن مجاني لجميع الطلبات فوق 500$ ✦ &nbsp;&nbsp;|&nbsp;&nbsp; ✦ إرجاع مجاني خلال 30 يوماً ✦ &nbsp;&nbsp;|&nbsp;&nbsp; ✦ تسليم عالمي إلى 150+ دولة ✦</p>
+  </div>
+
+  <!-- ===== الهيدر ===== -->
+  <header id="header">
+    <nav class="navbar">
+      <div class="nav-links">
+        <a href="#">مجموعات</a>
+        <a href="#">مصممون</a>
+        <a href="#">الجديد</a>
+      </div>
+      <div class="logo">LUXE</div>
+      <div class="nav-actions">
+        <button class="icon-btn" title="بحث">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        </button>
+        <button class="icon-btn" title="المفضلة">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </button>
+        <button class="icon-btn cart-btn" title="السلة">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+          <span class="cart-count">3</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero">
+    <div class="hero-bg">
+      <div class="hero-overlay"></div>
+      <div class="hero-grid"></div>
+    </div>
+    <div class="hero-content">
+      <span class="hero-eyebrow">مجموعة 2025 — حصري</span>
+      <h1 class="hero-title">
+        <span class="line">أناقة</span>
+        <span class="line gold">بلا حدود</span>
+      </h1>
+      <p class="hero-sub">اكتشف مجموعتنا الحصرية من أرقى المصممين العالميين</p>
+      <div class="hero-actions">
+        <a href="#products" class="btn-primary">تسوق الآن</a>
+        <a href="#" class="btn-ghost">استكشف المجموعة</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span></span>
+      <p>مرر للاستكشاف</p>
+    </div>
+  </section>
+
+  <!-- ===== شريط الإحصائيات ===== -->
+  <section class="stats-bar">
+    <div class="stat">
+      <span class="stat-num" data-target="150">0</span><span class="gold">+</span>
+      <p>دولة نخدمها</p>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat">
+      <span class="stat-num" data-target="500">0</span><span class="gold">+</span>
+      <p>مصمم عالمي</p>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat">
+      <span class="stat-num" data-target="50000">0</span><span class="gold">+</span>
+      <p>عميل سعيد</p>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat">
+      <span class="stat-num" data-target="10">0</span><span class="gold">+</span>
+      <p>سنوات خبرة</p>
+    </div>
+  </section>
+
+  <!-- ===== فئات ===== -->
+  <section class="categories">
+    <div class="section-header">
+      <span class="section-eyebrow">تسوق حسب الفئة</span>
+      <h2>اختر أسلوبك</h2>
+    </div>
+    <div class="categories-grid">
+      <div class="cat-card cat-large">
+        <div class="cat-bg" style="background:linear-gradient(135deg,#1a1a2e,#16213e)"></div>
+        <div class="cat-icon">👗</div>
+        <h3>الأزياء</h3>
+        <p>300+ قطعة</p>
+        <a href="#" class="cat-link">تسوق ←</a>
+      </div>
+      <div class="cat-card">
+        <div class="cat-bg" style="background:linear-gradient(135deg,#2d1b00,#4a2f00)"></div>
+        <div class="cat-icon">💍</div>
+        <h3>المجوهرات</h3>
+        <p>150+ قطعة</p>
+        <a href="#" class="cat-link">تسوق ←</a>
+      </div>
+      <div class="cat-card">
+        <div class="cat-bg" style="background:linear-gradient(135deg,#0d2818,#1a4f2d)"></div>
+        <div class="cat-icon">👜</div>
+        <h3>الحقائب</h3>
+        <p>200+ قطعة</p>
+        <a href="#" class="cat-link">تسوق ←</a>
+      </div>
+      <div class="cat-card">
+        <div class="cat-bg" style="background:linear-gradient(135deg,#1a0a2e,#2d1052)"></div>
+        <div class="cat-icon">⌚</div>
+        <h3>الساعات</h3>
+        <p>80+ قطعة</p>
+        <a href="#" class="cat-link">تسوق ←</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== المنتجات المميزة ===== -->
+  <section class="products" id="products">
+    <div class="section-header">
+      <span class="section-eyebrow">منتجات مختارة بعناية</span>
+      <h2>الأكثر رقياً</h2>
+    </div>
+    <div class="filter-tabs">
+      <button class="filter-tab active" data-filter="all">الكل</button>
+      <button class="filter-tab" data-filter="new">الجديد</button>
+      <button class="filter-tab" data-filter="sale">عروض</button>
+      <button class="filter-tab" data-filter="exclusive">حصري</button>
+    </div>
+    <div class="products-grid" id="productsGrid"></div>
+    <div class="load-more-wrap">
+      <button class="btn-outline" id="loadMore">عرض المزيد</button>
+    </div>
+  </section>
+
+  <!-- ===== بانر العرض ===== -->
+  <section class="mid-banner">
+    <div class="mid-banner-content">
+      <span class="section-eyebrow">عرض محدود</span>
+      <h2>خصم 30% على المجموعة الجديدة</h2>
+      <p>لا تفوّت الفرصة — العرض ينتهي قريباً</p>
+      <div class="countdown" id="countdown">
+        <div class="cd-block"><span id="cd-hours">00</span><p>ساعة</p></div>
+        <div class="cd-sep">:</div>
+        <div class="cd-block"><span id="cd-mins">00</span><p>دقيقة</p></div>
+        <div class="cd-sep">:</div>
+        <div class="cd-block"><span id="cd-secs">00</span><p>ثانية</p></div>
+      </div>
+      <a href="#" class="btn-primary">احصل على الخصم</a>
+    </div>
+  </section>
+
+  <!-- ===== المصممون ===== -->
+  <section class="designers">
+    <div class="section-header">
+      <span class="section-eyebrow">شركاؤنا</span>
+      <h2>مصممون عالميون</h2>
+    </div>
+    <div class="designers-track">
+      <div class="designers-inner" id="designersTrack">
+        <span>Gucci</span><span>Chanel</span><span>Dior</span><span>Prada</span>
+        <span>Versace</span><span>Balenciaga</span><span>LV</span><span>Hermès</span>
+        <span>Gucci</span><span>Chanel</span><span>Dior</span><span>Prada</span>
+        <span>Versace</span><span>Balenciaga</span><span>LV</span><span>Hermès</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== التقييمات ===== -->
+  <section class="testimonials">
+    <div class="section-header">
+      <span class="section-eyebrow">آراء عملائنا</span>
+      <h2>يثقون بنا حول العالم</h2>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p>"تجربة تسوق استثنائية، الجودة تفوق التوقعات والشحن كان سريعاً جداً!"</p>
+        <div class="reviewer"><div class="avatar">S</div><div><strong>سارة محمد</strong><span>دبي، الإمارات</span></div></div>
+      </div>
+      <div class="testimonial-card featured-review">
+        <div class="stars">★★★★★</div>
+        <p>"أفضل متجر إلكتروني تعاملت معه. المنتجات أصيلة 100% والخدمة رائعة."</p>
+        <div class="reviewer"><div class="avatar">A</div><div><strong>أحمد الفيصل</strong><span>الرياض، السعودية</span></div></div>
+      </div>
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p>"مجموعة رائعة ومتنوعة، وجدت ما أبحث عنه بسهولة. سأعود دائماً!"</p>
+        <div class="reviewer"><div class="avatar">L</div><div><strong>ليلى حسن</strong><span>القاهرة، مصر</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== النشرة البريدية ===== -->
+  <section class="newsletter">
+    <div class="newsletter-content">
+      <span class="section-eyebrow">ابقَ على اطلاع</span>
+      <h2>اشترك في النشرة الفاخرة</h2>
+      <p>كن أول من يعلم بأحدث المجموعات والعروض الحصرية</p>
+      <div class="newsletter-form">
+        <input type="email" placeholder="بريدك الإلكتروني..." />
+        <button class="btn-primary">اشترك</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== الفوتر ===== -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="footer-logo">LUXE</div>
+        <p>نقدم لك تجربة تسوق عالمية راقية من أفضل المصممين حول العالم.</p>
+        <div class="social-links">
+          <a href="#" title="Instagram">📸</a>
+          <a href="#" title="Twitter">🐦</a>
+          <a href="#" title="TikTok">🎵</a>
+          <a href="#" title="Pinterest">📌</a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>تسوق</h4>
+        <a href="#">مجموعات جديدة</a>
+        <a href="#">الأكثر مبيعاً</a>
+        <a href="#">العروض</a>
+        <a href="#">المصممون</a>
+      </div>
+      <div class="footer-links">
+        <h4>خدمة العملاء</h4>
+        <a href="#">تتبع طلبك</a>
+        <a href="#">الشحن والإرجاع</a>
+        <a href="#">دليل المقاسات</a>
+        <a href="#">تواصل معنا</a>
+      </div>
+      <div class="footer-links">
+        <h4>حول LUXE</h4>
+        <a href="#">قصتنا</a>
+        <a href="#">المسؤولية الاجتماعية</a>
+        <a href="#">انضم لنا</a>
+        <a href="#">الصحافة</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 LUXE. جميع الحقوق محفوظة.</p>
+      <div class="payment-icons">
+        <span>VISA</span><span>MC</span><span>AMEX</span><span>PayPal</span><span>Apple Pay</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== زر الرجوع للأعلى ===== -->
+  <button id="backToTop" title="العودة للأعلى">↑</button>
+
+  <!-- ===== إشعار السلة ===== -->
+  <div class="toast" id="toast">✓ تمت الإضافة إلى السلة</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
